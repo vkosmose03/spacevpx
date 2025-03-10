@@ -1,0 +1,117 @@
+/* Общие стили для body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Путь к фоновой картинке */
+    background-size: cover; /* Масштабируем картинку на весь экран */
+    background-position: center; /* Центрируем картинку */
+    background-repeat: no-repeat; /* Запрещаем повторение */
+    background-attachment: fixed; /* Фиксируем фон, чтобы он не скроллился */
+    color: white; /* Цвет текста для лучшей читаемости */
+    min-height: 100vh; /* Минимальная высота — весь экран */
+  }
+  
+  
+  /* Стили для header */
+  header {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для шапки */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Стили для иконки аккаунта */
+  .account-icon img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  /* Стили для основного контента */
+  main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для контента */
+    border-radius: 10px; /* Скруглённые углы */
+    margin: 20px;
+  }
+  
+  /* Стили для кнопок проектов */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .project-button {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .project-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стили для страницы авторизации */
+  .auth-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон для формы */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+ /* Стили для страницы авторизации */
+.auth-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон для формы */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .auth-container input {
+    width: calc(100% - 20px); /* Ширина поля ввода равна ширине кнопок */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для полей ввода */
+  }
+  
+  .auth-container button {
+    width: 100%; /* Ширина кнопок равна ширине полей ввода */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-container button:hover {
+    background-color: #0056b3;
+  }
