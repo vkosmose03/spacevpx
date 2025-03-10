@@ -1,21 +1,21 @@
 /* Общие стили для body */
-body {
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpg'); /* Путь к фоновой картинке */
-    background-size: cover; /* Масштабируем картинку на весь экран */
-    background-position: center; /* Центрируем картинку */
-    background-repeat: no-repeat; /* Запрещаем повторение */
-    background-attachment: fixed; /* Фиксируем фон, чтобы он не скроллился */
-    color: white; /* Цвет текста для лучшей читаемости */
-    min-height: 100vh; /* Минимальная высота — весь экран */
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
   }
   
   
   /* Стили для header */
   header {
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для шапки */
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -23,7 +23,6 @@ body {
     align-items: center;
   }
   
-  /* Стили для иконки аккаунта */
   .account-icon img {
     width: 30px;
     height: 30px;
@@ -31,15 +30,13 @@ body {
     background: transparent;
   }
   
-  /* Стили для основного контента */
   main {
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для контента */
-    border-radius: 10px; /* Скруглённые углы */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     margin: 20px;
   }
   
-  /* Стили для кнопок проектов */
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -61,22 +58,20 @@ body {
     background-color: #0056b3;
   }
   
-  /* Стили для страницы авторизации */
   .auth-container {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон для формы */
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
- /* Стили для страницы авторизации */
-.auth-container {
+  .auth-container {
     max-width: 300px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон для формы */
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
@@ -92,16 +87,16 @@ body {
   }
   
   .auth-container input {
-    width: calc(100% - 20px); /* Ширина поля ввода равна ширине кнопок */
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для полей ввода */
+    background-color: rgba(255, 255, 255, 0.8);
   }
   
   .auth-container button {
-    width: 100%; /* Ширина кнопок равна ширине полей ввода */
+    width: 100%;
     padding: 10px;
     background-color: #007bff;
     color: white;
